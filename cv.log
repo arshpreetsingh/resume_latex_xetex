@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.8)  19 JUL 2019 23:33
+This is LuaTeX, Version 1.10.0 (TeX Live 2019)  (format=lualatex 2019.5.8)  19 JUL 2019 23:42
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.240 seconds
+luaotfload | main : initialization completed in 0.320 seconds
 (./friggeri-cv.cls
 Document Class: friggeri-cv 2012/04/30 CV class
 (/usr/local/texlive/2019/texmf-dist/tex/latex/base/article.cls
@@ -1398,11 +1398,11 @@ Here is how much of LuaTeX's memory you used:
    avail lists: 1:2,2:1609,3:199,4:213,5:339,6:55,7:3411,8:15,9:327,10:10,11:256
 
  41973 multiletter control sequences out of 65536+600000
- 73 fonts using 19255683 bytes
+ 73 fonts using 19255771 bytes
  73i,9n,109p,988b,743s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./texgyreheros-italic.otf><./texgyreheros-bold.otf><./texgyreheros-regular.otf>
 <./Lato-Light.ttf>
-Output written on cv.pdf (3 pages, 59766 bytes).
+Output written on cv.pdf (3 pages, 59763 bytes).
 
 PDF statistics: 75 PDF objects out of 1000 (max. 8388607)
  47 compressed objects within 1 object stream
