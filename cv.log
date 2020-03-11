@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.2.13)  13 FEB 2020 10:35
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2020.3.4)  11 MAR 2020 08:48
  restricted system commands enabled.
 **cv.tex
 (./cv.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.126 seconds
+luaotfload | main : initialization completed in 0.130 seconds
 (./friggeri-cv.cls
 Document Class: friggeri-cv 2012/04/30 CV class
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -1263,25 +1263,21 @@ LaTeX Info: Redefining \nameref on input line 19.
 
 \openout5 = cv.out
 
-Overfull \hbox (9.51994pt too wide) in paragraph at lines 43--43
+Overfull \hbox (9.51994pt too wide) in paragraph at lines 44--44
  [][]\TU/texgyreheros-regular.otf(1)/m/n/10 https://medium.com/@ar-
  []
 
-<img/programming.png, id=12, 179.67125pt x 183.68625pt>
+<img/programming.png, id=13, 179.67125pt x 183.68625pt>
 File: img/programming.png Graphic file (type png)
 <use img/programming.png>
-Package luatex.def Info: img/programming.png  used on input line 47.
+Package luatex.def Info: img/programming.png  used on input line 48.
 (luatex.def)             Requested size: 111.395pt x 113.88428pt.
 
-Overfull \hbox (8.96497pt too wide) in paragraph at lines 47--47
+Overfull \hbox (8.96497pt too wide) in paragraph at lines 48--48
  [][]
  []
 
-<img/5stars.png, id=13, 122.4575pt x 24.09pt>
-File: img/5stars.png Graphic file (type png)
-<use img/5stars.png>
-Package luatex.def Info: img/5stars.png  used on input line 50.
-(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
+<img/5stars.png, id=14, 122.4575pt x 24.09pt>
 File: img/5stars.png Graphic file (type png)
 <use img/5stars.png>
 Package luatex.def Info: img/5stars.png  used on input line 51.
@@ -1290,33 +1286,37 @@ File: img/5stars.png Graphic file (type png)
 <use img/5stars.png>
 Package luatex.def Info: img/5stars.png  used on input line 52.
 (luatex.def)             Requested size: 48.98212pt x 9.63582pt.
-<img/2stars.png, id=14, 122.4575pt x 23.08624pt>
+File: img/5stars.png Graphic file (type png)
+<use img/5stars.png>
+Package luatex.def Info: img/5stars.png  used on input line 53.
+(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
+<img/2stars.png, id=15, 122.4575pt x 23.08624pt>
 File: img/2stars.png Graphic file (type png)
 <use img/2stars.png>
-Package luatex.def Info: img/2stars.png  used on input line 53.
+Package luatex.def Info: img/2stars.png  used on input line 54.
 (luatex.def)             Requested size: 48.98212pt x 9.23431pt.
-<img/personal.png, id=15, 181.67876pt x 181.67876pt>
+<img/personal.png, id=16, 181.67876pt x 181.67876pt>
 File: img/personal.png Graphic file (type png)
 <use img/personal.png>
-Package luatex.def Info: img/personal.png  used on input line 56.
+Package luatex.def Info: img/personal.png  used on input line 57.
 (luatex.def)             Requested size: 112.63965pt x 112.63965pt.
 
-Overfull \hbox (10.20961pt too wide) in paragraph at lines 56--56
+Overfull \hbox (10.20961pt too wide) in paragraph at lines 57--57
  [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--93
+Underfull \hbox (badness 10000) in paragraph at lines 62--97
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--131
+Underfull \hbox (badness 10000) in paragraph at lines 98--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 133--145
+Underfull \hbox (badness 10000) in paragraph at lines 111--148
 
  []
 
@@ -1324,30 +1324,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 133--145
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}<./img/programming.png><./img
 /5stars.png><./img/2stars.png><./img/personal.png>]
-<img/4stars.png, id=36, 122.4575pt x 24.09pt>
-File: img/4stars.png Graphic file (type png)
-<use img/4stars.png>
-Package luatex.def Info: img/4stars.png  used on input line 147.
-(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
-File: img/5stars.png Graphic file (type png)
-<use img/5stars.png>
-Package luatex.def Info: img/5stars.png  used on input line 148.
-(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
-File: img/5stars.png Graphic file (type png)
-<use img/5stars.png>
-Package luatex.def Info: img/5stars.png  used on input line 149.
-(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--199
+Underfull \hbox (badness 10000) in paragraph at lines 149--183
 
  []
 
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 
+    
+? 
+<img/4stars.png, id=38, 122.4575pt x 24.09pt>
+File: img/4stars.png Graphic file (type png)
+<use img/4stars.png>
+Package luatex.def Info: img/4stars.png  used on input line 186.
+(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
+File: img/5stars.png Graphic file (type png)
+<use img/5stars.png>
+Package luatex.def Info: img/5stars.png  used on input line 187.
+(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
+File: img/5stars.png Graphic file (type png)
+<use img/5stars.png>
+Package luatex.def Info: img/5stars.png  used on input line 188.
+(luatex.def)             Requested size: 48.98212pt x 9.63582pt.
 [2<./img/4stars.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 234.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 234.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 224.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 224.
  (./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 234.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 234.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 224.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 224.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'cv.run.xml'.
@@ -1356,21 +1365,22 @@ Package logreq Info: Writing requests to 'cv.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 39188 strings out of 494383
+ 39173 strings out of 494383
  125171,1373583 words of node,token memory allocated
- 505 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 12 attribute, 56 glue_spec
-, 11 attribute_list, 1 write, 5 pdf_action nodes
-   avail lists: 1:2,2:1667,3:202,4:203,5:261,6:58,7:2680,8:41,9:307,10:7,11:176
- 41773 multiletter control sequences out of 65536+600000
- 73 fonts using 19253447 bytes
+ 522 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 14 attribute, 56 glue_spec
+, 13 attribute_list, 2 write, 6 pdf_action nodes
+   avail lists: 1:3,2:1707,3:208,4:223,5:355,6:60,7:3398,8:43,9:319,10:13,11:244
+
+ 41774 multiletter control sequences out of 65536+600000
+ 73 fonts using 19252375 bytes
  73i,9n,109p,988b,743s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./texgyreheros-italic.otf><./texgyreheros-bold.otf><./texgyreheros-regular.otf>
 <./Lato-Light.ttf>
-Output written on cv.pdf (2 pages, 58712 bytes).
+Output written on cv.pdf (2 pages, 59049 bytes).
 
-PDF statistics: 71 PDF objects out of 1000 (max. 8388607)
- 44 compressed objects within 1 object stream
+PDF statistics: 73 PDF objects out of 1000 (max. 8388607)
+ 46 compressed objects within 1 object stream
  3 named destinations out of 1000 (max. 131072)
  16 words of extra memory for PDF output out of 10000 (max. 100000000)
 
