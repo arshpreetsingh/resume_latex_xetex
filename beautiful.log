@@ -1,0 +1,1312 @@
+This is LuaTeX, Version 1.0.4 (TeX Live 2017/Debian)  (format=lualatex 2020.1.26)  26 DEC 2020 21:33
+ restricted system commands enabled.
+**beautiful.tex
+(./beautiful.tex
+LaTeX2e <2017-04-15>
+Lua module: luaotfload-main 2017/01/29 2.80001 OpenType layout system.
+Lua module: lualibs 2017-02-01 2.5 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2017-02-01 2.5 ConTeXt Lua libraries -- extended co
+llection.(created cache path: /home/khangura/.texlive2017/texmf-var)(using write
+ cache: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic)(using read c
+ache: /var/lib/texmf/luatex-cache/generic /home/khangura/.texlive2017/texmf-var/
+luatex-cache/generic)
+luaotfload | conf : Root cache directory is /home/khangura/.texlive2017/texmf-va
+r/luatex-cache/generic/names.
+luaotfload | init : Loading fontloader “fontloader-2017-02-11.lua” from kpse
+-resolved path “/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader
+-2017-02-11.lua”.
+Lua-only attribute luaotfload@state = 1
+Lua-only attribute luaotfload@noligature = 2
+Lua-only attribute luaotfload@syllabe = 3
+luaotfload | init : Context OpenType loader version “3.027”
+Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
+Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 4
+luaotfload | conf : Root cache directory is /home/khangura/.texlive2017/texmf-va
+r/luatex-cache/generic/names.
+Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
+font'.
+Inserting `luaotfload.aux.patch_cambria_domh' at position 2 in `luaotfload.patch
+_font'.
+Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
+t_unsafe'.
+Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
+'.
+Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
+.
+luaotfload | main : initialization completed in 0.261 seconds
+Babel <3.18> and hyphenation patterns for 1 language(s) loaded.
+
+! LaTeX Error: File `my-resume.cls' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cls)
+
+Enter file name: 
+! Undefined control sequence.
+<argument> \highlightwidth 
+                
+l.12 \setlength\highlightwidth{8cm}
+                                 
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \setlength\highlightwidth{8cm}
+                                 
+? 
+! Undefined control sequence.
+<argument> \headerheight 
+              
+l.13 \setlength\headerheight{4cm}
+                                           % note that margintop gets added ...
+? 
+! Undefined control sequence.
+<argument> \marginleft 
+            
+l.14 \setlength\marginleft{1cm}
+                             
+? 
+! Undefined control sequence.
+<argument> \marginright 
+             
+l.15 \setlength\marginright{\marginleft}
+                                            % needs to be 1.5 times to be ac...
+? 
+! Undefined control sequence.
+<argument> \marginleft 
+            
+l.15 \setlength\marginright{\marginleft}
+                                            % needs to be 1.5 times to be ac...
+? 
+! Undefined control sequence.
+<argument> \margintop 
+           
+l.16 \setlength\margintop{1cm}
+                            
+? 
+! Undefined control sequence.
+<argument> \marginbottom 
+              
+l.17 \setlength\marginbottom{1cm}
+                               
+? 
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 12--18
+[]8cm
+ []
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/02/21 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/02/21 L3 programming layer (code)
+\ucharcat@table=\catcodetable5
+\c_max_int=\count79
+\l_tmpa_int=\count80
+\l_tmpb_int=\count81
+\g_tmpa_int=\count82
+\g_tmpb_int=\count83
+\g__intarray_font_int=\count84
+\g__prg_map_int=\count85
+\c_log_iow=\count86
+\l_iow_line_count_int=\count87
+\l__iow_line_target_int=\count88
+\l__iow_one_indent_int=\count89
+\l__iow_indent_int=\count90
+\c_zero_dim=\dimen102
+\c_max_dim=\dimen103
+\l_tmpa_dim=\dimen104
+\l_tmpb_dim=\dimen105
+\g_tmpa_dim=\dimen106
+\g_tmpb_dim=\dimen107
+\c_zero_skip=\skip41
+\c_max_skip=\skip42
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count91
+\c__fp_leading_shift_int=\count92
+\c__fp_middle_shift_int=\count93
+\c__fp_trailing_shift_int=\count94
+\c__fp_big_leading_shift_int=\count95
+\c__fp_big_middle_shift_int=\count96
+\c__fp_big_trailing_shift_int=\count97
+\c__fp_Bigg_leading_shift_int=\count98
+\c__fp_Bigg_middle_shift_int=\count99
+\c__fp_Bigg_trailing_shift_int=\count100
+\c__fp_rand_size_int=\count101
+\c__fp_rand_four_int=\count102
+\c__fp_rand_eight_int=\count103
+\l__sort_length_int=\count104
+\l__sort_min_int=\count105
+\l__sort_top_int=\count106
+\l__sort_max_int=\count107
+\l__sort_true_max_int=\count108
+\l__sort_block_int=\count109
+\l__sort_begin_int=\count110
+\l__sort_end_int=\count111
+\l__sort_A_int=\count112
+\l__sort_B_int=\count113
+\l__sort_C_int=\count114
+\l__tl_build_start_index_int=\count115
+\l__tl_build_index_int=\count116
+\l__tl_analysis_normal_int=\count117
+\l__tl_analysis_index_int=\count118
+\l__tl_analysis_nesting_int=\count119
+\l__tl_analysis_type_int=\count120
+\l__regex_internal_a_int=\count121
+\l__regex_internal_b_int=\count122
+\l__regex_internal_c_int=\count123
+\l__regex_balance_int=\count124
+\l__regex_group_level_int=\count125
+\l__regex_mode_int=\count126
+\c__regex_cs_in_class_mode_int=\count127
+\c__regex_cs_mode_int=\count128
+\l__regex_catcodes_int=\count129
+\l__regex_default_catcodes_int=\count130
+\c__regex_catcode_L_int=\count131
+\c__regex_catcode_O_int=\count132
+\c__regex_catcode_A_int=\count133
+\c__regex_all_catcodes_int=\count134
+\l__regex_show_lines_int=\count135
+\l__regex_min_state_int=\count136
+\l__regex_max_state_int=\count137
+\l__regex_left_state_int=\count138
+\l__regex_right_state_int=\count139
+\l__regex_capturing_group_int=\count140
+\l__regex_min_pos_int=\count141
+\l__regex_max_pos_int=\count142
+\l__regex_curr_pos_int=\count143
+\l__regex_start_pos_int=\count144
+\l__regex_success_pos_int=\count145
+\l__regex_curr_char_int=\count146
+\l__regex_curr_catcode_int=\count147
+\l__regex_last_char_int=\count148
+\l__regex_case_changed_char_int=\count149
+\l__regex_curr_state_int=\count150
+\l__regex_step_int=\count151
+\l__regex_min_active_int=\count152
+\l__regex_max_active_int=\count153
+\l__regex_replacement_csnames_int=\count154
+\l__regex_match_count_int=\count155
+\l__regex_min_submatch_int=\count156
+\l__regex_submatch_int=\count157
+\l__regex_zeroth_submatch_int=\count158
+\g__regex_trace_regex_int=\count159
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+\l__box_top_dim=\dimen108
+\l__box_bottom_dim=\dimen109
+\l__box_left_dim=\dimen110
+\l__box_right_dim=\dimen111
+\l__box_top_new_dim=\dimen112
+\l__box_bottom_new_dim=\dimen113
+\l__box_left_new_dim=\dimen114
+\l__box_right_new_dim=\dimen115
+\l__box_internal_box=\box31
+\l__coffin_internal_box=\box32
+\l__coffin_internal_dim=\dimen116
+\l__coffin_offset_x_dim=\dimen117
+\l__coffin_offset_y_dim=\dimen118
+\l__coffin_x_dim=\dimen119
+\l__coffin_y_dim=\dimen120
+\l__coffin_x_prime_dim=\dimen121
+\l__coffin_y_prime_dim=\dimen122
+\c_empty_coffin=\box33
+\l__coffin_aligned_coffin=\box34
+\l__coffin_aligned_internal_coffin=\box35
+\l_tmpa_coffin=\box36
+\l_tmpb_coffin=\box37
+\l__coffin_display_coffin=\box38
+\l__coffin_display_coord_coffin=\box39
+\l__coffin_display_pole_coffin=\box40
+\l__coffin_display_offset_dim=\dimen123
+\l__coffin_display_x_dim=\dimen124
+\l__coffin_display_y_dim=\dimen125
+\l__coffin_bounding_shift_dim=\dimen126
+\l__coffin_left_corner_dim=\dimen127
+\l__coffin_right_corner_dim=\dimen128
+\l__coffin_bottom_corner_dim=\dimen129
+\l__coffin_top_corner_dim=\dimen130
+\l__coffin_scaled_total_height_dim=\dimen131
+\l__coffin_scaled_width_dim=\dimen132
+)
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count160
+\l__driver_tmp_box=\box41
+))
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count161
+\g__xparse_grabber_int=\count162
+\l__xparse_m_args_int=\count163
+\l__xparse_mandatory_args_int=\count164
+\l__xparse_v_nesting_int=\count165
+)
+Package: fontspec 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2017/11/09 2.6g Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2017/11/09 v2.6g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count166
+\l__fontspec_language_int=\count167
+\l__fontspec_strnum_int=\count168
+\l__fontspec_tmp_int=\count169
+\l__fontspec_em_int=\count170
+\l__fontspec_emdef_int=\count171
+\l__fontspec_strong_int=\count172
+\l__fontspec_strongdef_int=\count173
+\l__fontspec_tmpa_dim=\dimen133
+\l__fontspec_tmpb_dim=\dimen134
+\l__fontspec_tmpc_dim=\dimen135
+\g__file_internal_ior=\read1
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+)
+luaotfload | db : Font names database not found, generating new one.
+luaotfload | db : This can take several minutes; please be patient.(save: /home/
+khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-regular
+.lua)(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl
+/lmroman10-regular.luc))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fontspec with sig. 'O{}mO{}' on line 545.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmainfont with sig. 'O{}mO{}' on line 549.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setsansfont with sig. 'O{}mO{}' on line 553.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmonofont with sig. 'O{}mO{}' on line 557.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathrm with sig. 'O{}mO{}' on line 561.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setboldmathrm with sig. 'O{}mO{}' on line 565.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathsf with sig. 'O{}mO{}' on line 569.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setmathtt with sig. 'O{}mO{}' on line 573.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \setromanfont with sig. 'O{}mO{}' on line 577.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfamily with sig. 'mO{}mO{}' on line 581.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontface with sig. 'mO{}mO{}' on line 585.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \defaultfontfeatures with sig. 't+om' on line 589.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeatures with sig. 'm' on line 593.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \addfontfeature with sig. 'm' on line 597.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontfeature with sig. 'mm' on line 601.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newAATfeature with sig. 'mmmm' on line 605.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newopentypefeature with sig. 'mmm' on line 609.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newICUfeature with sig. 'mmm' on line 613.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeature with sig. 'mm' on line 617.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 621.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontscript with sig. 'mm' on line 625.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newfontlanguage with sig. 'mm' on line 629.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareFontsExtensions with sig. 'm' on line 633.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \IfFontFeatureActiveTF with sig. 'mmm' on line 637.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCommand with sig. 'mO{}m' on line 3366.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingAccent with sig. 'mm' on line 3372.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingSymbol with sig. 'mm' on line 3378.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingComposite with sig. 'mmm' on line 3384.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \EncodingCompositeCommand with sig. 'mmm' on line 3390.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \DeclareUnicodeEncoding with sig. 'mm' on line 3415.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareSymbol with sig. 'm' on line 3421.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareAccent with sig. 'm' on line 3427.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareCommand with sig. 'm' on line 3433.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \UndeclareComposite with sig. 'mm' on line 3440.
+.................................................
+ (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3625.
+LaTeX Info: Redefining \slshape on input line 3630.
+LaTeX Info: Redefining \scshape on input line 3635.
+LaTeX Info: Redefining \upshape on input line 3640.
+LaTeX Info: Redefining \em on input line 3670.
+LaTeX Info: Redefining \emph on input line 3695.
+(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmro
+man10-bold.lua)(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic
+/fonts/otl/lmroman10-bold.luc)(save: /home/khangura/.texlive2017/texmf-var/luate
+x-cache/generic/fonts/otl/lmroman10-italic.lua)(save: /home/khangura/.texlive201
+7/texmf-var/luatex-cache/generic/fonts/otl/lmroman10-italic.luc)
+LaTeX Info: Redefining \- on input line 3749.
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \oldstylenums with sig. 'm' on line 3844.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \liningnums with sig. 'm' on line 3848.
+.................................................
+))(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/ca
+rlito-regular.lua)(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/gene
+ric/fonts/otl/carlito-regular.luc)
+\g__fontspec_family_Carlito_int=\count174
+(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/carl
+ito-bolditalic.lua)(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/gen
+eric/fonts/otl/carlito-bolditalic.luc)(save: /home/khangura/.texlive2017/texmf-v
+ar/luatex-cache/generic/fonts/otl/carlito-bold.lua)(save: /home/khangura/.texliv
+e2017/texmf-var/luatex-cache/generic/fonts/otl/carlito-bold.luc)(save: /home/kha
+ngura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/carlito-italic.lua)(
+save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/carli
+to-italic.luc)
+luaotfload | aux : font no 26 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 26
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+luaotfload | aux : font no 28 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 28
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+luaotfload | aux : font no 29 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 29
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+luaotfload | aux : font no 27 (nil) does not define feature smcp for script latn
+ with language dflt
+luaotfload | aux : no font with id 27
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 \setmainfont{Carlito}
+                        
+? 
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'Carlito(0)' created for font 'Carlito' with options
+. [Ligatures=TeX].
+.  
+.  This font family consists of the following NFSS series/shapes:
+.  
+. - 'normal' (m/n) with NFSS spec.:
+. <->"Carlito:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'small caps'  (m/sc) with NFSS spec.: 
+. - 'bold' (bx/n) with NFSS spec.:
+. <->"Carlito/B:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold small caps'  (bx/sc) with NFSS spec.: 
+. - 'italic' (m/it) with NFSS spec.:
+. <->"Carlito/I:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'italic small caps'  (m/itsc) with NFSS spec.: 
+. - 'bold italic' (bx/it) with NFSS spec.:
+. <->"Carlito/BI:mode=node;script=latn;language=DFLT;+tlig;"
+. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+.................................................
+LaTeX Info: Redefining \rmfamily on input line 25.
+! Undefined control sequence.
+l.32 \colorlet
+            {highlightbarcolor}{lightgray}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 \colorlet{h
+              ighlightbarcolor}{lightgray}
+? 
+! Undefined control sequence.
+l.33 \colorlet
+            {headerbarcolor}{darkgray}
+? 
+
+Overfull \hbox (40.57129pt too wide) in paragraph at lines 32--34
+[]\TU/Carlito(0)/m/n/10 high-
+ []
+
+
+Overfull \hbox (20.56152pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 light-
+ []
+
+
+Overfull \hbox (16.29883pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 bar-
+ []
+
+
+Overfull \hbox (14.77539pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 col-
+ []
+
+
+Overfull \hbox (43.68652pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 orlightgray
+ []
+
+
+Overfull \hbox (31.5039pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 header-
+ []
+
+
+Overfull \hbox (16.29883pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 bar-
+ []
+
+
+Overfull \hbox (14.77539pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 col-
+ []
+
+
+Overfull \hbox (11.52832pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 or-
+ []
+
+
+Overfull \hbox (20.76172pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 dark-
+ []
+
+
+Overfull \hbox (17.11914pt too wide) in paragraph at lines 32--34
+\TU/Carlito(0)/m/n/10 gray 
+ []
+
+! Undefined control sequence.
+l.35 \colorlet
+            {headerfontcolor}{white}
+? 
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \colorlet{h
+              eaderfontcolor}{white}
+? 
+! Undefined control sequence.
+l.36 \colorlet
+            {accent}{awesome-red}
+? 
+! Undefined control sequence.
+l.37 \colorlet
+            {heading}{black}
+? 
+! Undefined control sequence.
+l.38 \colorlet
+            {emphasis}{black}
+? 
+! Undefined control sequence.
+l.39 \colorlet
+            {body}{black}
+? 
+
+Overfull \hbox (43.33496pt too wide) in paragraph at lines 35--40
+[]\TU/Carlito(0)/m/n/10 head-
+ []
+
+
+Overfull \hbox (11.23047pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 er-
+ []
+
+
+Overfull \hbox (19.37988pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 font-
+ []
+
+
+Overfull \hbox (14.77539pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 col-
+ []
+
+
+Overfull \hbox (11.52832pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 or-
+ []
+
+
+Overfull \hbox (22.91504pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 white
+ []
+
+
+Overfull \hbox (68.5791pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 accentawesome-
+ []
+
+
+Overfull \hbox (13.58398pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 red
+ []
+
+
+Overfull \hbox (23.33496pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 head-
+ []
+
+
+Overfull \hbox (15.31738pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 ing-
+ []
+
+
+Overfull \hbox (21.11328pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 black
+ []
+
+
+Overfull \hbox (16.02539pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 em-
+ []
+
+
+Overfull \hbox (18.35938pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 pha-
+ []
+
+
+Overfull \hbox (13.17871pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 sis-
+ []
+
+
+Overfull \hbox (21.11328pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 black
+ []
+
+
+Overfull \hbox (23.14941pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 body-
+ []
+
+
+Overfull \hbox (21.11328pt too wide) in paragraph at lines 35--40
+\TU/Carlito(0)/m/n/10 black 
+ []
+
+No file beautiful.aux.
+
+\openout1 = beautiful.aux
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \begin{document}
+                   
+? 
+.................................................
+. fontspec info: "setup-math"
+. 
+. Adjusting the maths setup (use [no-math] to avoid this).
+.................................................
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 47.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 47.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 47.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 47.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 47.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 47.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 47.
+LaTeX Font Info:    Redeclaring math accent \check on input line 47.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 47.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 47.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 47.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 47.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 47.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/Carlito(0)/m/n on input line 47.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/m/n on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/m/n on input line 47
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Carlito(0)/m/it on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Carlito(0)/bx/n on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 47.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Carlito(0)/m/n --> TU/Carlito(0)/bx/n on input line 4
+7.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Carlito(0)/bx/it on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 47.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 47.
+! Undefined control sequence.
+l.49 \name
+        {Dr. Nico Krieger}
+? 
+! Undefined control sequence.
+l.50 \tagline
+           {Amazing tag line that makes HR managers want to hire you immedia...
+? 
+! Undefined control sequence.
+l.51 \photo
+         [round]{picture.jpg}{\dimexpr \headerheight-\marginbottom}   % make...
+? 
+! You can't use `\dimexpr' in horizontal mode.
+l.51 \photo[round]{picture.jpg}{\dimexpr
+                                       \headerheight-\marginbottom}   % make...
+? 
+! Undefined control sequence.
+l.51 ...o[round]{picture.jpg}{\dimexpr \headerheight
+                                                  -\marginbottom}   % make p...
+? 
+! Undefined control sequence.
+l.51 ...re.jpg}{\dimexpr \headerheight-\marginbottom
+                                                  }   % make photo exactly m...
+? 
+! Undefined control sequence.
+l.53 \makeheader
+              
+? 
+! Undefined control sequence.
+l.55 \highlightbar
+                {
+? 
+! Undefined control sequence.
+l.57     \section
+               {Contact}
+? 
+! Undefined control sequence.
+l.59     \email
+             {mail@mailprovider.com}
+? 
+! Undefined control sequence.
+l.60     \phone
+             {+49 123 456789}
+? 
+! Undefined control sequence.
+l.61     \location
+                {Some Street 1, 12345 City Name}
+? 
+! Undefined control sequence.
+l.63     \homepage
+                {nicokrieger.com}{https://www.nicokrieger.de}
+? 
+! Undefined control sequence.
+l.64     \github
+              {@GiantMolecularCloud}{https://github.com/giantmolecularcloud}
+? 
+! Undefined control sequence.
+l.65     \linkedin
+                {Nico Krieger}{https://www.linkedin.com/in/nico-krieger-6b28...
+? 
+! Undefined control sequence.
+l.66     \orcid
+             {0000-0003-1104-2014}{https://www.orcid.org/0000-0003-1104-2014}
+? 
+! Undefined control sequence.
+l.67     \ads
+           {NASA/ADS publication list}{https://ui.adsabs.harvard.edu/search/...
+? 
+! Misplaced alignment tab character &.
+l.67 ...7B!type\%3Daqp\%20v\%3D\%24fq\_database\%7D&
+                                                  fq\_database=database\%3A\...
+? 
+! Misplaced alignment tab character &.
+l.67 ...\%7D&fq\_database=database\%3A\%20astronomy&
+                                                  p\_=0&q=pubdate\%3A\%5B201...
+? 
+! Misplaced alignment tab character &.
+l.67 ...q\_database=database\%3A\%20astronomy&p\_=0&
+                                                  q=pubdate\%3A\%5B2016-01\%...
+? 
+! Misplaced alignment tab character &.
+l.67 ...\%20author\%3A(\%22Krieger\%2C\%20Nico\%22)&
+                                                  sort=date\%20desc\%2C\%20b...
+? 
+! Undefined control sequence.
+l.69     \section
+               {Skills}
+? 
+! Undefined control sequence.
+l.71     \skillsection
+                    {Programming}
+? 
+! Undefined control sequence.
+l.72     \skill
+             {Python}{5}
+? 
+! Undefined control sequence.
+l.73     \skill
+             {Bash}{4}
+? 
+! Undefined control sequence.
+l.74     \skill
+             {C++}{2}
+? 
+! Undefined control sequence.
+l.75     \skill
+             {Apple Script}{3}
+? 
+! Undefined control sequence.
+l.76     \skill
+             {HTML/CSS}{3}
+? 
+! Undefined control sequence.
+l.77     \skill
+             {LaTeX}{4}
+? 
+! Undefined control sequence.
+l.80     \skillsection
+                    {Operating Systems}
+? 
+! Undefined control sequence.
+l.81     \skill
+             {Linux}{4}
+? 
+! Undefined control sequence.
+l.82     \skill
+             {MacOS}{5}
+? 
+! Undefined control sequence.
+l.83     \skill
+             {Windows}{3}
+? 
+! Undefined control sequence.
+l.86     \skillsection
+                    {Software \& Tools}
+? 
+! Undefined control sequence.
+l.87     \skill
+             {Visualisation}{5}
+? 
+! Undefined control sequence.
+<recently read> \skill 
+       
+l.89     \skill
+             {Data handling/analysis}{5}
+? 
+! Undefined control sequence.
+<recently read> \skill 
+       
+l.91     \skill
+             {Docker}{3}
+? 
+! Undefined control sequence.
+l.92     \skill
+             {Office}{4}
+? 
+! Undefined control sequence.
+l.95     \skillsection
+                    {Another skill subsection header}
+? 
+! Undefined control sequence.
+l.99     \skillsection
+                    {Languages}
+? 
+! Undefined control sequence.
+l.100     \skill
+              {German}{5}
+? 
+! Undefined control sequence.
+l.101     \skill
+              {English}{5}
+? 
+! Undefined control sequence.
+l.102     \skill
+              {French}{2}
+? 
+! Undefined control sequence.
+l.105     \section
+                {Certificates}
+? 
+! Undefined control sequence.
+l.106     \simpleskill
+                    {AWS certified cloud practitioner}
+? 
+! Undefined control sequence.
+l.109 \mainbar
+            {
+? 
+! Undefined control sequence.
+l.110     \section
+                {About this template}
+? 
+(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/generic/fonts/otl/lmmo
+no10-regular.lua)(save: /home/khangura/.texlive2017/texmf-var/luatex-cache/gener
+ic/fonts/otl/lmmono10-regular.luc)
+! Undefined control sequence.
+l.113     \section
+                [\faGears]{Work history}
+? 
+! Undefined control sequence.
+l.113     \section[\faGears
+                         ]{Work history}
+? 
+! Undefined control sequence.
+l.114     \job
+            {date}
+? 
+! Undefined control sequence.
+l.118     \job
+            {01/2020 - 12/2020}
+? 
+! Undefined control sequence.
+l.123     \section
+                [\faMortarBoard]{Education}
+? 
+! Undefined control sequence.
+l.123     \section[\faMortarBoard
+                               ]{Education}
+? 
+! Undefined control sequence.
+l.124     \job
+            {01/2019 - 12/2019}
+? 
+! Undefined control sequence.
+l.129     \section
+                {Achievements, honours and awards}
+? 
+! Undefined control sequence.
+l.130     \achievement
+                    {My first achievement}
+? 
+! Undefined control sequence.
+l.131     \achievement
+                    {My second achievement}
+? 
+! Undefined control sequence.
+l.133     \section
+                {General Skills}
+? 
+! Undefined control sequence.
+l.135     \tag
+            {Tag 1}
+? 
+! Undefined control sequence.
+l.136     \tag
+            {Tag 2}
+? 
+! Undefined control sequence.
+l.137     \tag
+            {and}
+? 
+! Undefined control sequence.
+l.138     \tag
+            {another tag}
+? 
+! Undefined control sequence.
+l.139     \tag
+            {some more tags}
+? 
+! Undefined control sequence.
+l.140     \tag
+            {yet another one}
+? 
+! Undefined control sequence.
+l.141     \tag
+            {tags flow over}
+? 
+! Undefined control sequence.
+l.142     \tag
+            {to the next line}
+? 
+! Undefined control sequence.
+l.143     \tag
+            {if necessary}
+? 
+! Undefined control sequence.
+l.148     \section
+                {Wheel Chart}
+? 
+! Undefined control sequence.
+l.151     \wheelchart
+                   {1.5cm}{0.5cm}{% outer and inner diameter
+? 
+! Undefined control sequence.
+l.159 \makebody
+             
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \clearpage
+              
+? 
+[1
+Missing character: There is no 8 (U+0038) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no 4 (U+0034) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+Missing character: There is no 1 (U+0031) in font nullfont!
+Missing character: There is no c (U+0063) in font nullfont!
+Missing character: There is no m (U+006D) in font nullfont!
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+! Undefined control sequence.
+<argument> \undefinedpagestyle 
+                    
+l.163 \pagestyle{highlightmain}
+                             
+? 
+! Undefined control sequence.
+l.164 \highlightbar
+                 {}
+? 
+! Undefined control sequence.
+l.165 \mainbar
+            {
+? 
+! Undefined control sequence.
+l.167     \section
+                {Another section}
+? 
+! Undefined control sequence.
+l.177     \subsection
+                   {Subsection 1}
+? 
+! Undefined control sequence.
+l.180     \subsection
+                   {Subsection 2}
+? 
+! Undefined control sequence.
+l.185 \makebody
+             
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 \clearpage
+              
+? 
+[2
+
+]
+! Undefined control sequence.
+l.191 \section
+            {Publications}
+? 
+! Undefined control sequence.
+l.192 \pubforcefullwidth
+                      
+? 
+! Undefined control sequence.
+l.201 \publication
+                
+? 
+! Undefined control sequence.
+l.206 	{\ADS
+          {https://ui.adsabs.harvard.edu/abs/2020ApJ...899..158K}, \arXiv{ht...
+? 
+! Undefined control sequence.
+l.206 ...arvard.edu/abs/2020ApJ...899..158K}, \arXiv
+                                                  {https://arxiv.org/abs/200...
+? 
+! Undefined control sequence.
+l.208 \publication
+                
+? 
+! Undefined control sequence.
+l.213 	{\ADS
+          {https://ui.adsabs.harvard.edu/abs/2020ApJ...897..176K}, \arXiv{ht...
+? 
+! Undefined control sequence.
+l.213 ...arvard.edu/abs/2020ApJ...897..176K}, \arXiv
+                                                  {https://arxiv.org/abs/200...
+? 
+! Undefined control sequence.
+l.215 \publication
+                
+? 
+! Undefined control sequence.
+l.220 	{\ADS
+          {https://ui.adsabs.harvard.edu/abs/2019ApJ...881...43K}, \arXiv{ht...
+? 
+! Undefined control sequence.
+l.220 ...arvard.edu/abs/2019ApJ...881...43K}, \arXiv
+                                                  {https://arxiv.org/abs/190...
+? 
+
+! LaTeX Error: The font size command \normalsize is not defined:
+               there is probably something wrong with the class file.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 \end{document}
+                  
+? 
+[3
+
+] (./beautiful.aux))
+
+Here is how much of LuaTeX's memory you used:
+ 9906 strings out of 494480
+ 100000,383344 words of node,token memory allocated
+ 346 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 4 attribute, 41 glue_spec, 4 attribute_list
+, 1 write nodes
+   avail lists: 2:257,3:63,4:4,5:364,6:2346,7:447,9:77,10:3,11:165
+ 13996 multiletter control sequences out of 65536+600000
+ 32 fonts using 8479887 bytes
+ 39i,4n,67p,381b,229s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texlive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Bold.ttf>
+</usr/share/texmf/fonts/opentype/public/lm/lmmono10-regular.otf></usr/share/texl
+ive/texmf-dist/fonts/truetype/typoland/carlito/Carlito-Regular.ttf>
+Output written on beautiful.pdf (3 pages, 41026 bytes).
+
+PDF statistics: 35 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
+
