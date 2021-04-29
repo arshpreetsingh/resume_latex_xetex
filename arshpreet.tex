@@ -1,0 +1,229 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+% personal data
+\name{Gabriel}{Antelo}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+\address{Sanchez de Bustamante, 731, Buenos Aires, Argentina}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{+54 341 2293380}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{gabriel1536@gmail.com}                               % optional, remove / comment the line if not wanted
+\homepage{www.github.com/gabriel1536}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\small{Undergraduate computer science master completing the final year of a bachelor's degree. 
+Experience coding and programming accordingly with the criteria defined for each given technology assigned.
+Good predisposition for new technologies, great working team skills, proactive, resolutive and a big capacity to adapt to any environment.
+
+\section{Previous Employment}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{\cventry{January 2016--August 2018}{.NET Developer, client: Cencosud}{Fantommers S.R.L.}{Rosario, Santa Fe, Argentina}{}
+{\vspace{3pt}
+Web development using ASP.NET Framework in C\# and JavaScript.\\
+Query management in SQL Server. \\
+Unit-testing development. \\
+Legacy code maintainer.
+}}
+
+\vspace{6pt}
+
+\item{\cventry{July 2017--August 2018}{Angular4 Developer, client: Cencosud}{Fantommers S.R.L.}{Rosario, Santa Fe, Argentina}{}{\vspace{3pt}
+I participated in the development and maintaining of the Cencosud's call center web app (a single page application).\\
+Angular5 front-end based and .NET + SQLServer backend. \\
+I was in charge of this company's side project by myself replacing the previous (and original) developer.
+}}
+
+\vspace{6pt}
+
+\item{\cventry{September 2018--March 2019}{Angular2+ Developer}{Travtion S.R.L.}{Remote}{}{\vspace{3pt}
+Maintainer of Travtion Solutions Backoffice Frontend. \\
+This included the development of a series of graphical reports, legacy code bugfixing and several other new requirements.  \\
+I was also involved in their PHP and JavaScript-based front-end which sometimes required support.
+}}
+
+\vspace{6pt}
+
+\item{\cventry{April 2019--Current}{.NET Developer. Client: Microsoft}{Southworks}{Buenos Aires}{}{\vspace{3pt}
+Involved in the creation of a new project requiring health check services and telemetry data for the upcoming Windows Virtual Desktop service by Microsoft.  \\
+Currently using several design patterns such as repository, composition, dependency injection, factory, bridge, and so on.
+}}
+
+\end{itemize}
+
+\newpage
+
+\section{Education}
+
+\vspace{5pt}
+
+\subsection{Academic Qualifications}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\cventry{2013--2019}{Computer Science (Masters degree)}{FCEIyA - Universidad Nacional de Rosario}{Rosario, Santa Fe, Argentina}{\textit{}}{}}
+
+\end{itemize}
+
+\vspace{2pt}
+
+\subsection{Notable Projects}
+
+\vspace{5pt}
+
+\begin{itemize}
+
+\item{\textbf{4th year project:} \textit{'Development of a tiger compiler in Haskell'}
+
+\vspace{3pt}
+
+\small{I was part of a 2-person project which consisted in creating a tiger compiler in Haskell. This required strong team-working skills and high technical ability. (see https://gitlab.com/DavidGiordana/TigerHaskell) }}
+
+\item{\textbf{3rd year individual project:} \textit{'Concurrent data file system'}
+
+\vspace{3pt}
+
+\small{This challenging project took place over the entirety of my third year. It required excellent planning and organisational skills, and the ability to teach myself an entirely new and complex subject. The project consisted in implementing a concurrent data file system both in C and Erlang languages, using linux. (see https://github.com/gabriel1536/Emotion98.3, ReadMe in progress)}}
+
+\vspace{6pt}
+
+\item{\textbf{4th year project:} \textit{'Development of a embedded language for regular expressions analysis'}
+
+\vspace{3pt}
+
+\small{In the 4th year of my course I spent a semester completing a project for parsing and compiling regular expressions. It consisted in creating finite state machines by any browser (supporting javascript) and translating it to haskell language with the 'Haste' compiler for the GHC-based Haskell to JavaScript compiler. (see https://github.com/gabriel1536/Tp-Alp)}}
+\vspace{6pt}
+\item{\textbf{Personal little project:} \textit{'Markov chains based BOT for twitter'}
+
+\vspace{3pt}
+
+\small{Simple program written in JavaScript that takes any user given tweets, creates a single .txt database and generates arbitrary text based on markov chains probabilities, then posts it as a tweet in a given interval. (see https://github.com/gabriel1536/Bots - This has a pending refactor)}}
+
+\end{itemize}
+
+\section{Technical and Personal skills}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item \textbf{Programming Languages:} Proficient in: C\#, JavaScript, TypeScript, Haskell, JQuery, Python \\ Also basic ability with: Assembly, Erlang, R.
+
+\vspace{6pt}
+
+\item \textbf{Industry Software Skills:} Photoshop (Intermediate), Adobe Illustrator (Intermediate), Matlab (Int), Most MS Office products, \LaTeX.
+
+\vspace{6pt}
+
+\item \textbf{Other Software Skills:} Machine Learning, currently ongoing course by Udemy: \\ https://www.udemy.com/share/100034BkEcdF5VQXQ=/
+
+\vspace{6pt}
+
+\item \textbf{General Business Skills:} Good presentation skills, Works well in a team.
+
+\vspace{6pt}
+
+\item \textbf{Other:} Can write well organised and structured reports.
+
+\end{itemize}
+
+\section{Interests and extra-curricular activity}
+
+\vspace{6pt}
+
+\begin{itemize}
+
+\item{I studied for about 3 years musical theory and can play both guitar and piano.}
+
+\vspace{6pt}
+
+\item{I have lots of friends and consider myself a funny but serious guy, and I'm able to easily make new ones! }
+
+\vspace{6pt}
+
+\item{I am also an avid runner, getting up to 10kms twice a week.}
+
+\end{itemize}
+
+\section{References}
+
+\vspace{6pt}
+ 
+\begin{itemize}
+
+\item{ Julia Acuña - HR responsible in Fantommers. https://www.linkedin.com/in/majuliaacuña/. }
+
+\end{itemize}
+
+% Publications from a BibTeX file without multibib
+%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
+%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
+\nocite{*}
+\bibliographystyle{plain}
+\bibliography{publications}                        % 'publications' is the name of a BibTeX file
+
+% Publications from a BibTeX file using the multibib package
+%\section{Publications}
+%\nocitebook{book1,book2}
+%\bibliographystylebook{plain}
+%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
+%\nocitemisc{misc1,misc2,misc3}
+%\bibliographystylemisc{plain}
+%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
+
+%-----       letter       ---------------------------------------------------------
+
+\end{document}
+
+
+%% end of file `template.tex'.
+
